@@ -4,6 +4,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## DEMO 
 
-Open [https://tphamcs.github.io/react-cgecko-api/] to view it in your browser
+Open [https://tphamcs.github.io/react-cgecko-api/](https://tphamcs.github.io/react-cgecko-api/) to view it in your browser
 
-# react-cgecko-api
