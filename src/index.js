@@ -3,14 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { HashRouter } from "react-router-dom"
 import CoinListProvider from './context/CoinListContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CoinListProvider>
-      <App /> 
-    </CoinListProvider> 
+    <HashRouter> 
+      <CoinListProvider>
+        <App /> 
+      </CoinListProvider> 
+   </HashRouter> 
   </React.StrictMode>
 );
 
