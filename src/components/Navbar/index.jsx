@@ -9,10 +9,10 @@ const Header = () => {
     <>
       <Navbar bg="primary" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href={'/'}>React Boostrap</Navbar.Brand>
+          <Navbar.Brand as={Link} to={'/'}>React Boostrap</Navbar.Brand>
           <Nav className="me-auto">
-            <Link to={'/'} style={{marginRight: "1em"}}>Home</Link>
-            <Link to={'/contact'}>Contact</Link>
+            <Nav.Link as={Link}to={'/'}>Home</Nav.Link>
+            <Nav.Link as={Link} to={'/contact'}>Contact</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
